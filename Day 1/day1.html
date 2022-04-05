@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 Days of Code Day 1</title>
+  <!-- link to CSS  -->
+  <link rel="stylesheet" href="day1.css">
+
+  <!-- link to javascript -->
+  <script src="day1.js"></script>
+</head>
+<body>
+  <div id="container1">
+    <img src="logo.jpg" alt="Logo" srcset="">
+    <p id="Header">30 days of Code</p>
+  </div>
+  <p id="Sub-header">DAY 1</p>
+
+  <div class="body">
+    <h1>Welcome!</h1>
+    <p>Do you know that it is easy to get the sum of your phone number digits using Vanilla Javascript?
+      <div class="span">
+        Fill the Form below to find out.
+    </div></p>
+    <!-- User's Name  -->
+    <label for="name">Name:</label>
+    <input type="text" name="Name" id="Name">
+    <br>
+
+    <!-- Phone Number  -->
+    <label for="tel">Telephone Number:</label>
+    <input type="tel" minlength="1" maxlength="11" name="digit" id="digit" placeholder="Input your phone number here">
+    <br>
+  
+    <!-- Sum Button  -->
+    <input class="button" type="button" name="Sum" onclick="Sum()" value="Sum">
+
+    <p id="conclusion">
+
+    </p>
+  </div>
+</body>
+</html>
