@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 Days of Code Day 3</title>
+  <!-- link to CSS  -->
+  <link rel="stylesheet" href="day3.css">
+
+  <!-- link to javascript -->
+  <script src="day3.js"></script>
+</head>
+<body>
+  <div id="container1">
+    <img src="logo.jpg" alt="Logo" srcset="">
+    <p id="Header">30 days of Code</p>
+  </div>
+  <p id="Sub-header">DAY 3</p>
+
+  <div class="body">
+    <h1>Welcome!</h1>
+    <p>
+      <span class="span2">Update!!!</span>
+      , Our FizzBuzz game has now been Upgraded to FizzBuzzPro.
+    </p>
+
+      Isn't that exiting!!. Now a user can input up to 3 numerical values and play FizzBuzz.
+      <br>
+
+        FizzBuzz is a game in which the user inputs a numerical value and in return gets the numbers from 1 to that numerical value.Want to Play 
+        <span class="span2">FizzBuzz?</span>.
+        <a href="https://elameen123.github.io/Day2/">Click here</a>
+        <br><br>
+        
+      <span>Fun Fact:</span> FizzBuzzPro game can be created using HTML, CSS & JAVASCRIPT. Want to know how? 
+      <a href="http://twitter.com/ecxunilag">Find Out</a>
+      <br><br>
+      Care to play FizzBuzzPro?. Fill the Form below to play.
+      </p>
+    <!-- User's Name  -->
+    <label for="name">Name:</label>
+    <input type="text" name="Name" id="Name">
+    <br>
+
+    <!-- Play Number 1  -->
+    <label for="tel">Play Number 1:</label>
+    <input type="tel" minlength="1" maxlength="5" name="digit" id="digit1" placeholder="Input a number here">
+    <br>
+
+    <!-- Play Number 2  -->
+    <label for="tel">Play Number 2:</label>
+    <input type="tel" minlength="1" maxlength="5" name="digit" id="digit2" placeholder="Input a number here">
+    <br>
+
+    <!-- Play Number 3  -->
+    <label for="tel">Play Number 3:</label>
+    <input type="tel" minlength="1" maxlength="5" name="digit" id="digit3" placeholder="Input a number here">
+    <br>
+  
+    <!-- Sum Button  -->
+    <input class="button" type="button" name="gamPro" onclick="FizzBuzzPro()" value="Play">
+
+    <div id="Display">
+      <p id="conclusion"></p>
+    </div>
+  </div>
+</body>
+</html>
