@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 Days of Code Day 5</title>
+  <!-- link to CSS  -->
+  <link rel="stylesheet" href="day5.css">
+
+  <!-- link to javascript -->
+  <script src="day5.js"></script>
+</head>
+<body>
+  <div id="container1">
+    <img src="logo.jpg" alt="Logo" srcset="">
+    <p id="Header">30 days of Code</p>
+  </div>
+  <p id="Sub-header">DAY 5</p>
+
+  <div class="body">
+    <h1>ECX STAFF LOGIN</h1>
+    <p>
+      <span class="span2">Welcome!!</span>
+    </p>
+      Kindly input your Staff Details Below.
+      <br>
+      <br>
+      <span>Fun Fact:</span> Organization Staff Login Page  can be created using HTML, CSS & JAVASCRIPT. Want to know how? 
+      <a href="http://twitter.com/ecxunilag">Find Out</a>
+      <br>
+      <br>
+    
+    <form action="" method="post">
+      <!-- Name  -->
+    <label for="name">Name:</label>
+    <input type="text" name="Name" id="Name">
+    <br>
+
+    <!-- Email  -->
+    <label for="Email">Email:</label>
+    <input type="email" minlength="1" maxlength="40" name="Email" id="Email" 
+    pattern="/^[a-zA-Z0-9.!#$%&*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+    placeholder="Username@OrganizationName.com" required multiple>
+    <br>
+
+    <!-- Password  -->
+    <label for="tel">Password:</label>
+    <input type="password" minlength="15"
+    pattern="/^[A-Za-z0-9.!#$%&*+/=?^_`{|}~-]*$/"
+    maxlength="20" name="password" id="password" placeholder="Password required" required>
+    <br>
+
+    <!-- Level-->
+    <label for="Level">Level:</label>
+    <input type="number" minlength="1" maxlength="2" name="level" id="level" placeholder="Input your level here">
+    <br>
+
+     <!-- Staff ID-->
+     <label for="ID">Staff ID:</label>
+     <input type="password" minlength="5" maxlength="20" name="level" id="staffID" 
+     pattern="[A-Z-]{4}[0-9-]{4}[0-9.-]{3}[A-Z.-]{3}"
+     placeholder="e.g. ECX-012-08-FE">
+     <br>
+
+     <!-- Track-->
+     <label for="Track">Track:</label>
+     <input type="text" minlength="6" maxlength="30" name="track" id="track" placeholder="e.g. Backend Development">
+     <br>
+  
+    <!-- Submit Button  -->
+    <input class="button" type="button" name="submit" onclick="staffDetails()" value="Submit">
+
+    </form>
+
+    <!-- <div id="Display">
+      <p id="conclusion"></p>
+    </div> -->
+  </div>
+</body>
+</html>
