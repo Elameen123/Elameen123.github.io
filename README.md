@@ -9,4 +9,6 @@
 [Task Link](https://elameen123.github.io/Day4/)
 #### Day 5
 [Task Link](https://elameen123.github.io/Day5/)
+#### Day 6
+[Task Link](https://elameen123.github.io/Day6/)
 
