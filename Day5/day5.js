@@ -53,13 +53,6 @@ data.push(Track);
 
   console.log(staffData);
 
-  // // Getting the staff Login Details in an Array 
-  // staffArray.push(staffLoginDetails);
-
-  // console.log(staffArray);
-
-  // alert("Congratulations!!, your Login was Successful")
-
-  // console.log(staffArray);
+  alert("Congratulations!!, your Login was Successful");
 
 }
